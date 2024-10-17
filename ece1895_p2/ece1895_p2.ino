@@ -160,7 +160,6 @@ void endGame(int aNum) {
     delay(1000);
     analogWrite(pin5, 0);
   }
-  
 }
 
 void badEnding() {
