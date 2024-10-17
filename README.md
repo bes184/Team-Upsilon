@@ -1,6 +1,6 @@
 # Team-Upsilon
 
-# ece-1895
+## ece-1895
 
 | Contributors |
 |--------------|
