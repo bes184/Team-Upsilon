@@ -25,12 +25,8 @@ void setup() {
   pinMode(pin3, INPUT); // for karate chopping
   pinMode(pin4, INPUT); // for jellyfish catching
 
-  pinMode(pin5, OUTPUT); // for giving signal to play a random command
-  pinMode(pin6, OUTPUT); // for indicating correct action
-  pinMode(pin7, OUTPUT); // for indicating game end
-  pinMode(pin8, OUTPUT); // for indicating game won
-  pinMode(pin9, OUTPUT); // for updating the point counter
-  pinMode(pin10, OUTPUT); // 
+  pinMode(pin5, OUTPUT); // analog output for speaker
+  pinMode(pin6, OUTPUT); // for updating the hex display for points
 }
 
 void loop() {
@@ -56,7 +52,7 @@ void loop() {
       }
 
       // if game is still going, use the amount of points to determine
-      // new time (decrements every 10 points)
+      // new time limit
       isPoints(); // TODO
     }
   }
@@ -101,6 +97,7 @@ bool isDone(int aCommand) {
   switch(aCommand) {
     case 0:
       if(checkSandy || checkPatrick) {
+        // end game stuff, wrong move version
         endGame(1);
         return false;
       }
@@ -111,6 +108,7 @@ bool isDone(int aCommand) {
       break;
     case 1:
       if(checkSpongeBob || checkPatrick) {
+        // end game stuff, wrong move version
         endGame(1);
         return false;
       }
@@ -121,6 +119,7 @@ bool isDone(int aCommand) {
       break;
     case 2:
       if(checkSpongeBob || checkSandy) {
+        // end game stuff, wrong move version
         endGame(1);
         return false;
       }
