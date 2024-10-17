@@ -31,11 +31,10 @@ void loop() {
   if(digitalRead(pin1) == HIGH) {
     // indicate new game has started, reset points and time
     isGame = true;
+    points = 0; // points accumulated
+    timeLimit = 10; // 10 seconds time limit
+    elapsedTime = timeLimit;
     while(isGame) {
-      points = 0; // points accumulated
-      timeLimit = 10; // 10 seconds time limit
-      elapsedTime = timeLimit;
-
       // have Squidward play a random command
       int aCommand = randomCommand(); // TODO
 
