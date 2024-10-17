@@ -1,7 +1,5 @@
 # Team-Upsilon
 
-## ece-1895
-
 | Contributors |
 |--------------|
 | Aidan Beecher   | 
