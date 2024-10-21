@@ -37,15 +37,17 @@ void loop() {
     while(isGame) {
       // have Squidward play a random command
       int aCommand = randomCommand(); // TODO
+      bool isCommand = true;
 
       // check if command is played during time frame given
       // if done, grant a point and play clarinet sound
       // if not done, squidward says "time's up! you have xx points"
       // game ends, play patrick sound
       // set isGame to false if game ends
-      while(isGame) {
-        isGame = isDone(aCommand); // TODO
+      while(isCommand) {
+        isCommand = isDone(aCommand); // TODO
       }
+      isGame = isCommand;
     }
   }
 }
