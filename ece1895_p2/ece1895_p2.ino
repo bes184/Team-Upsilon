@@ -1,4 +1,7 @@
-//Anjali Angal 
+/** Team Upsilon
+ * Anjali Angal
+ * Beyl Sin
+ */
 
 // variable to check if game is active
 bool isGame = false;
