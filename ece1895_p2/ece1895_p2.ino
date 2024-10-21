@@ -1,3 +1,5 @@
+//Anjali Angal 
+
 // variable to check if game is active
 bool isGame = false;
 // variable for storing the number of points
