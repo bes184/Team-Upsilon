@@ -4,5 +4,5 @@
 |--------------|--------------|
 | Aidan Beecher   |  |
 | Anjali Angal-Belen  | Hardware 1 | 
-| Beryl Sin  | |
+| Beryl Sin  | Software |
 
