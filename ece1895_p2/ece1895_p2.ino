@@ -8,12 +8,12 @@ int timeLimit = 0;
 
 // variables to hold the pins to be used for inputs/outputs
 // arbitrary pin values are used
-int pin1 = 1;
-int pin2 = 2;
-int pin3 = 3;
-int pin4 = 4;
-int pin5 = 5;
-int pin6 = 6;
+int pin1 = 5;
+int pin2 = 6;
+int pin3 = 7;
+int pin4 = 8;
+int pin5 = 13;
+int pin6 = 12;
   
 void setup() {
   // reading pin values
