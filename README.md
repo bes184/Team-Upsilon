@@ -1,7 +1,8 @@
 # Team-Upsilon
 
-| Contributors |
-|--------------|
-| Aidan Beecher   | 
-| Anjali Angal-Belen |
-| Beryl Sin  |
+| Contributors | Roles |
+|--------------|--------------|
+| Aidan Beecher   |  |
+| Anjali Angal-Belen  | Hardware 1 | 
+| Beryl Sin  | |
+
