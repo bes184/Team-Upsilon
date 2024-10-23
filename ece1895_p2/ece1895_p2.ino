@@ -56,6 +56,8 @@ void loop() {
     isGame = true;
     points = 0; // points accumulated
     timeLimit = 10 * 1000; // 10 seconds time limit
+    isFlipped = false;
+    prevState = 0;
     digitalWrite(pin10, LOW);
     while(isGame) {
       // have Squidward play a random command
@@ -84,7 +86,7 @@ int randomCommand() {
   // 0 = flip patty
   // 1 = karate chop
   // 2 = catch jellyfish
-  int randomNumber = random(0, 2); 
+  int randomNumber = random(0, 3); 
   switch(randomNumber) {
     case 0:
       // TODO make Squidward say "Spongebob, flip the patty!" - convert to analog output for speaker
