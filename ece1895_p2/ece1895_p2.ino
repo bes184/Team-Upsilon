@@ -245,19 +245,19 @@ void isPoints() {
       endGame(2);
       break;
     case 19:
-      timeLimit -=1;
+      timeLimit -=1 * 1000;
       break;
     case 39:
-      timeLimit -=1;
+      timeLimit -=1 * 1000;
       break;
     case 59:
-      timeLimit -=1;
+      timeLimit -=1 * 1000;
       break;
     case 79:
-      timeLimit -=1;
+      timeLimit -=1 * 1000;
       break;
     case 89:
-      timeLimit -=1;
+      timeLimit -=1 * 1000;
       break;
   }
 }
