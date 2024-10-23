@@ -1,7 +1,7 @@
 /** Team Upsilon
  * Aidan Becher
  * Anjali Angal
- * Beyl Sin
+ * Beryl Sin
  */
 
 // variable to check if game is active
