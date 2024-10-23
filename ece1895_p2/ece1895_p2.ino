@@ -139,6 +139,8 @@ bool isDone(int aCommand) {
   bool checkSpongeBob = checkPattyFlip();
   bool checkSandy = (digitalRead(pin3) == HIGH);
   bool checkPatrick = (digitalRead(pin4) == HIGH);
+  // introduce debouncing
+  delay(500);
 
   // check to see if the command is done
   switch(aCommand) {
