@@ -90,6 +90,11 @@ int randomCommand() {
   // 1 = karate chop
   // 2 = catch jellyfish
   int randomNumber = random(0, 3); 
+
+  // uncomment a line to test specific command
+  // randomNumber = 0 // for patty (switch)
+  // randomNumber = 1 // for karate chop (button 1)
+  // randomNumber = 2 // for jellyfish (button 2)
   switch(randomNumber) {
     case 0:
       // TODO make Squidward say "Spongebob, flip the patty!" - convert to analog output for speaker
