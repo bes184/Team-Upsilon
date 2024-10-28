@@ -420,37 +420,53 @@ void isPoints() {
 // speaker outputs
 void speakerCommand1(uint8_t speakerPin) {
   // "Spongebob"
-  tone(speakerPin, 392, 200); // G4
+  tone(speakerPin, 330, 200); // E4 (S)
   delay(250);
-  tone(speakerPin, 349, 200); // F4
+  tone(speakerPin, 349, 200); // F4 (p)
   delay(250);
-  tone(speakerPin, 330, 200); // E4
+  tone(speakerPin, 392, 200); // G4 (o)
   delay(250);
-  tone(speakerPin, 294, 200); // D4
+  tone(speakerPin, 349, 200); // F4 (n)
   delay(250);
-  
-  // "flip"
-  tone(speakerPin, 330, 200); // E4
+  tone(speakerPin, 330, 200); // E4 (g)
   delay(250);
-  tone(speakerPin, 349, 200); // F4
+  tone(speakerPin, 294, 200); // D4 (e)
+  delay(250);
+  tone(speakerPin, 330, 200); // E4 (b)
+  delay(250);
+
+  // "flip!"
+  tone(speakerPin, 392, 200); // G4 (f)
+  delay(250);
+  tone(speakerPin, 349, 200); // F4 (l)
+  delay(250);
+  tone(speakerPin, 330, 200); // E4 (i)
+  delay(250);
+  tone(speakerPin, 294, 200); // D4 (p)
   delay(250);
 }
 
 void speakerCommand2(uint8_t speakerPin) {
   // "Sandy"
-  tone(speakerPin, 330, 200); // E4
+  tone(speakerPin, 330, 200); // E4 (S)
   delay(250);
-  tone(speakerPin, 349, 200); // F4
+  tone(speakerPin, 349, 200); // F4 (a)
   delay(250);
-  tone(speakerPin, 392, 200); // G4
+  tone(speakerPin, 392, 200); // G4 (n)
   delay(250);
-  tone(speakerPin, 349, 200); // F4
+  tone(speakerPin, 349, 200); // F4 (d)
+  delay(250);
+  tone(speakerPin, 330, 200); // E4 (y)
   delay(250);
   
   // "chop"
-  tone(speakerPin, 294, 200); // D4
+  tone(speakerPin, 294, 200); // D4 (c)
   delay(250);
-  tone(speakerPin, 330, 200); // E4
+  tone(speakerPin, 330, 200); // E4 (h)
+  delay(250);
+  tone(speakerPin, 349, 200); // F4 (o)
+  delay(250);
+  tone(speakerPin, 294, 200); // D4 (p)
   delay(250);
 }
 
