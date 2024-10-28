@@ -10,7 +10,7 @@ bool isGame = false; // check if game runs
 
 // variable for storing the number of points
 int points = 0; // current points
-const int totalPoints = 3; // points to win
+const int totalPoints = 11; // points to win
 int hex10 = 0;
 int hex01 = 0;
 
@@ -117,6 +117,7 @@ void reset() {
   points = 0; // points accumulated
   hex10 = 0;
   hex01 = 0;
+  updateHexDisplay();
 
   timeLimit = 10 * 1000; // 10 seconds time limit
 
@@ -137,35 +138,41 @@ int randomCommand() {
   // randomNumber = 0; // for patty (switch)
   // randomNumber = 1 // for karate chop (button 1)
   // randomNumber = 2 // for jellyfish (button 2)
+  playCommand(randomNumber);
+  return randomNumber;
+}
+
+void playCommand(int randomNumber) {
   switch(randomNumber) {
     case 0:
       // TODO make Squidward say "Spongebob, flip the patty!" - convert to pwm output for speaker
-      speakerCommand1(pin5);
-
       digitalWrite(pin14, HIGH); // command indicator // **OPTIONAL
+      delay(500);
+      digitalWrite(pin14, LOW); // reset command indicator // **OPTIONAL
+      speakerCommand1(pin5);
       break;
     case 1:
       // TODO make Squidward say "Sandy, karate chop the table!" - convert to pwm output for speaker
-      speakerCommand2(pin5);
-      
       digitalWrite(pin15, HIGH); // command indicator // **OPTIONAL
+      delay(500);
+      digitalWrite(pin15, LOW); // reset command indicator // **OPTIONAL
+      speakerCommand2(pin5);
       break;
     case 2:
       // TODO make Squidward say "Patrick, catch the jellyfish!" - convert to pwm output for speaker
-      speakerCommand3(pin5);
-
       digitalWrite(pin14, HIGH); // command indicator // **OPTIONAL
       digitalWrite(pin15, HIGH); // command indicator // **OPTIONAL
+      delay(500);
+      digitalWrite(pin14, LOW); // reset command indicator // **OPTIONAL
+      digitalWrite(pin15, LOW); // reset command indicator // **OPTIONAL
+      speakerCommand3(pin5);
       break;
   }
 
   // reset output for speaker
-  delay(500);
-  digitalWrite(pin5, 0);
+  // delay(500);
+  // noTone(pin5);
 
-  digitalWrite(pin14, LOW); // reset command indicator // **OPTIONAL
-  digitalWrite(pin15, LOW); // reset command indicator // **OPTIONAL
-  return randomNumber;
 }
 
 boolean checkPattyFlip() {
@@ -233,40 +240,52 @@ void endGame(int aNum) {
   digitalWrite(pin17, HIGH); // indicate wrong move
   if(aNum == 0) {
     // TODO make Squidward say "Time's up!" - convert to pwm output for speaker
+    noTone(pin5);
     speakerEnding1(pin5);
-
+    delay(500);
+    noTone(pin5);
     badEnding();
   }
   else if(aNum == 1) {
     // TODO make Squidward say "Wrong move!" - convert to pwm output for speaker
+    noTone(pin5);
     speakerEnding2(pin5);
-    
+    delay(500);
+    noTone(pin5);
     badEnding();
   }
   else if(aNum == 2) {
     // TODO make Squidward say "You win!" - convert to pwm output for speaker
     speakerEnding3(pin5);
+    delay(500);
+    noTone(pin5);
   }
 }
 
 void badEnding() {
   // TODO make Patrick yell in frustration/"Boooo!" - convert to pwm output for speaker
   speakerPatrick(pin5);
+  delay(500);
+  noTone(pin5);
 }
 
 // correct stuff
 void isCorrect() {
   // TODO make Squidward play clarinet - convert to pwm output for speaker
-  speakerClarinet(pin5);
-  
   correctCommand = true;
+  noTone(pin5);
   digitalWrite(pin16, HIGH); // correct command indicator // **OPTIONAL
-
+  delay(500);
+  digitalWrite(pin16, LOW);
+  
   addPoints(); // increment points
 
   updateHexDisplay(); // update hex displays
 
   isPoints(); // if game is still going, use the amount of points to determine new time limit
+  speakerClarinet(pin5);
+  delay(500 );
+  noTone(pin5);
 }
 
 // increment points
@@ -414,6 +433,8 @@ void isPoints() {
     case 89:
       timeLimit -=1 * 1000;
       break;
+    default:
+      return;
   }
 }
 
@@ -444,6 +465,8 @@ void speakerCommand1(uint8_t speakerPin) {
   delay(250);
   tone(speakerPin, 294, 200); // D4 (p)
   delay(250);
+
+  noTone(speakerPin);
 }
 
 void speakerCommand2(uint8_t speakerPin) {
@@ -468,6 +491,8 @@ void speakerCommand2(uint8_t speakerPin) {
   delay(250);
   tone(speakerPin, 294, 200); // D4 (p)
   delay(250);
+
+  noTone(speakerPin);
 }
 
 void speakerCommand3(uint8_t speakerPin) {
@@ -494,6 +519,8 @@ void speakerCommand3(uint8_t speakerPin) {
   delay(250);
   tone(speakerPin, 294, 200); // D4 (ch)
   delay(250);
+
+  noTone(speakerPin);
 }
 
 void speakerEnding1(uint8_t speakerPin) {
@@ -510,6 +537,8 @@ void speakerEnding1(uint8_t speakerPin) {
   delay(250);
   tone(speakerPin, 349, 200); // F4 (p)
   delay(250);
+
+  noTone(speakerPin);
 }
 
 void speakerEnding2(uint8_t speakerPin) {
@@ -526,6 +555,8 @@ void speakerEnding2(uint8_t speakerPin) {
   delay(250);
   tone(speakerPin, 440, 200); // A4 (o)
   delay(250);
+
+  noTone(speakerPin);
 }
 
 void speakerEnding3(uint8_t speakerPin) {
@@ -542,6 +573,8 @@ void speakerEnding3(uint8_t speakerPin) {
   delay(250);
   tone(speakerPin, 330, 200); // E4 (n)
   delay(250);
+
+  noTone(speakerPin);
 }
 
 void speakerPatrick(uint8_t speakerPin) {
@@ -556,6 +589,8 @@ void speakerPatrick(uint8_t speakerPin) {
   delay(150);
   tone(speakerPin, 262, 300); // C4 (o)
   delay(150);
+
+  noTone(speakerPin);
 }
 
 void speakerClarinet(uint8_t speakerPin) {
@@ -572,4 +607,6 @@ void speakerClarinet(uint8_t speakerPin) {
   delay(250);
   tone(speakerPin, 392, 200); // G4
   delay(250);
+
+  noTone(speakerPin);
 }
