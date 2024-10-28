@@ -9,6 +9,7 @@ bool isGame = false;
 // variable for storing the number of points
 bool correctCommand = false;
 int points = 0;
+int totalPoints = 3;
 // variable for keeping track of the time (in seconds)
 int t0 = 0;
 int timeLimit = 0;
@@ -47,6 +48,9 @@ void setup() {
 }
 
 void loop() {
+    // tone(pin5, 831, 2000);
+    // // delay(6000);
+    // return;
   // check if the user started the game
   if(digitalRead(pin1) == HIGH) {
     // indicate new game has started, reset points and time
@@ -68,7 +72,8 @@ void loop() {
       // game ends, play patrick sound
       // set isGame to false if game ends
       t0 = millis(); // update time tracker
-      while(!correctCommand && isCommand) {
+      bool isWin = (points > 2);
+      while(!correctCommand && isCommand && !isWin) {
         isCommand = isDone(aCommand); // TODO
         // check to see if the time is within time limit
         int elapsedTime = millis() - t0;
@@ -77,8 +82,9 @@ void loop() {
           endGame(0);
           isCommand = false;
         }
+        isWin = (points > 2);
       }
-      isGame = isCommand;
+      isGame = isCommand && !isWin;
     }
   }
 }
@@ -92,7 +98,7 @@ int randomCommand() {
   int randomNumber = random(0, 3); 
 
   // uncomment a line to test specific command
-  // randomNumber = 0 // for patty (switch)
+  // randomNumber = 0; // for patty (switch)
   // randomNumber = 1 // for karate chop (button 1)
   // randomNumber = 2 // for jellyfish (button 2)
   switch(randomNumber) {
@@ -140,7 +146,7 @@ bool isDone(int aCommand) {
   bool checkSandy = (digitalRead(pin3) == HIGH);
   bool checkPatrick = (digitalRead(pin4) == HIGH);
   // introduce debouncing
-  delay(500);
+  delay(100);
 
   // check to see if the command is done
   switch(aCommand) {
@@ -227,21 +233,22 @@ void isCorrect() {
   correctCommand = true;
   digitalWrite(pin9, HIGH);
   analogWrite(pin5, 9);
-  delay(1000);
+  delay(100);
   analogWrite(pin5, 0);
+  delay(1000);
 
   points += 1; // increment points
   isPoints(); // if game is still going, use the amount of points to determine new time limit
   // TODO update hex display
   digitalWrite(pin6, HIGH);
-  delay(1000);
+  delay(100);
   digitalWrite(pin6, LOW);
 }
 
 // checks the amount of points and uses that to determine the time limit
 void isPoints() {
   switch(points){
-    case 99:
+    case 3:
       endGame(2);
       break;
     case 19:
