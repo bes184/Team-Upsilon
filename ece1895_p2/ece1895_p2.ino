@@ -104,16 +104,21 @@ int randomCommand() {
   switch(randomNumber) {
     case 0:
       // TODO make Squidward say "Spongebob, flip the patty!" - convert to analog output for speaker
-      analogWrite(pin5, 1);
+      tone(pin5, 444, 2000); // Tone A
+      delay(550);
       digitalWrite(pin7, HIGH);
       break;
     case 1:
       // TODO make Squidward say "Sandy, karate chop the table!" - convert to analog output for speaker
+      tone(pin5, 784, 2000); // Tone G
+      delay(550);
       analogWrite(pin5, 2);
       digitalWrite(pin8, HIGH);
       break;
     case 2:
       // TODO make Squidward say "Patrick, catch the jellyfish!" - convert to analog output for speaker
+      tone(pin5, 587, 2000); // Tone D
+      delay(550);
       analogWrite(pin5, 3);
       digitalWrite(pin7, HIGH);
       digitalWrite(pin8, HIGH);
@@ -192,39 +197,45 @@ void endGame(int aNum) {
   digitalWrite(pin10, HIGH); // indicate wrong move
   if(aNum == 0) {
     // TODO make Squidward say "Time's up!" - convert to analog output for speaker
-    analogWrite(pin5, 4);
-    delay(1000);
-    analogWrite(pin5, 0);
+    tone(pin5, 659, 2000); // Tone E
+    delay(550);
+    // analogWrite(pin5, 4);
+    // delay(1000);
+    // analogWrite(pin5, 0);
     badEnding();
   }
   else if(aNum == 1) {
     // TODO make Squidward say "Wrong move!" - convert to analog output for speaker
-    analogWrite(pin5, 5);
-    delay(1000);
-    analogWrite(pin5, 0);
+    tone(pin5, 698, 2000); // Tone F
+    delay(550);
+    // analogWrite(pin5, 5);
+    // delay(1000);
+    // analogWrite(pin5, 0);
     badEnding();
   }
   else if(aNum == 2) {
     // TODO make Squidward say "You win!" - convert to analog output for speaker
-    analogWrite(pin5, 6);
-    delay(1000);
-    analogWrite(pin5, 0);
+    tone(pin5, 831, 2000); // Tone A flat
+    delay(550);
+    // analogWrite(pin5, 6);
+    // delay(1000);
+    // analogWrite(pin5, 0);
     // TODO make Squidward say "You got " + points + "points." - convert to analog output for speaker
-    analogWrite(pin5, 7);
-    delay(1000);
-    analogWrite(pin5, 0);
+    // analogWrite(pin5, 7);
+    // delay(1000);
+    // analogWrite(pin5, 0);
   }
 }
 
 void badEnding() {
   // TODO make Squidward say "You got " + points + "points." - convert to analog output for speaker
-  analogWrite(pin5, 7);
-  delay(1000);
-  analogWrite(pin5, 0);
+  // analogWrite(pin5, 7);
+  // delay(1000);
+  // analogWrite(pin5, 0);
   // TODO make Patrick yell in frustration/"Boooo!" - convert to analog output for speaker
-  analogWrite(pin5, 8);
-  delay(1000);
-  analogWrite(pin5, 0);
+  // analogWrite(pin5, 8);
+  // delay(1000);
+  // analogWrite(pin5, 0);
 }
 
 // correct stuff
@@ -232,10 +243,10 @@ void isCorrect() {
   // TODO make Squidward play clarinet - convert to analog output for speaker
   correctCommand = true;
   digitalWrite(pin9, HIGH);
-  analogWrite(pin5, 9);
-  delay(100);
-  analogWrite(pin5, 0);
-  delay(1000);
+  // analogWrite(pin5, 9);
+  // delay(100);
+  // analogWrite(pin5, 0);
+  // delay(1000);
 
   points += 1; // increment points
   isPoints(); // if game is still going, use the amount of points to determine new time limit
