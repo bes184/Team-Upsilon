@@ -22,31 +22,31 @@ int timeLimit = 0; // time to do command
 int prevState = 0;
 
 // variables to hold the pins to be used for inputs/outputs
-int pin1 = 5; // start button
+uint8_t pin1 = 5; // start button
 
-int pin2 = A5; // patty
-int pin3 = 6; // karate chop
-int pin4 = 7; // jellyfish
+uint8_t pin2 = A5; // patty
+uint8_t pin3 = 6; // karate chop
+uint8_t pin4 = 7; // jellyfish
 
-int pin5 = 10; // pwm for speaker
+uint8_t pin5 = 10; // pwm for speaker
 
 // for hex10
-int pin6 = A4; 
-int pin7 = A3;
-int pin8 = A2;
-int pin9 = A1;
+uint8_t pin6 = A4; 
+uint8_t pin7 = A3;
+uint8_t pin8 = A2;
+uint8_t pin9 = A1;
 
 // for hex01
-int pin10 = A0; 
-int pin11 = 13; 
-int pin12 = 11; 
-int pin13 = 9; 
+uint8_t pin10 = A0; 
+uint8_t pin11 = 13; 
+uint8_t pin12 = 11; 
+uint8_t pin13 = 9; 
 
 // for debugging
-int pin14 = 2; // led0 for command // **OPTIONAL
-int pin15 = 4; // led1 for command // **OPTIONAL
-int pin16 = 8; // correct command indicator // **OPTIONAL
-int pin17 = 12; // end game indicator // **OPTIONAL
+uint8_t pin14 = 2; // led0 for command // **OPTIONAL
+uint8_t pin15 = 4; // led1 for command // **OPTIONAL
+uint8_t pin16 = 8; // correct command indicator // **OPTIONAL
+uint8_t pin17 = 12; // end game indicator // **OPTIONAL
   
 void setup() {
   // reading pin values
