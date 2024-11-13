@@ -10,7 +10,7 @@ bool isGame = false; // check if game runs
 
 // variable for storing the number of points
 int points = 0; // current points
-const int totalPoints = 11; // points to win
+const int totalPoints = 99; // points to win
 int hex10 = 0;
 int hex01 = 0;
 
