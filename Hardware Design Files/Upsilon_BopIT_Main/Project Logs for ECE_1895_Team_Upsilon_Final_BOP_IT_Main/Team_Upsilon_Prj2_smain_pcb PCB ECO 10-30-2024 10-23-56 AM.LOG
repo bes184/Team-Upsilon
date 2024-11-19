@@ -1,0 +1,105 @@
+Add Component: Footprint Not Found PCAP_8x112_PAN
+Add Component: Footprint Not Found PCAP_8x112_PAN
+Add Component: Footprint Not Found PCAP_8x112_PAN
+Add Component: Footprint Not Found XTAL_ECS-36-18-4X
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found TO254P1041X444X1930-3
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found STA_CF14_STP
+Add Component: Footprint Not Found SW_NCA1
+Add Component: Footprint Not Found SW_NCA1
+Add Component: Footprint Not Found SW_EG1218
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin External_Clk-1
+Add Pin To Net: Unknown Pin: Pin External_Clk-2
+Add Pin To Net: Unknown Pin: Pin PDR1-1
+Add Pin To Net: Unknown Pin: Pin PDR1-2
+Add Pin To Net: Unknown Pin: Pin PDR2-1
+Add Pin To Net: Unknown Pin: Pin PDR2-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Pin To Net: Unknown Pin: Pin R5-1
+Add Pin To Net: Unknown Pin: Pin R5-2
+Add Pin To Net: Unknown Pin: Pin R6-1
+Add Pin To Net: Unknown Pin: Pin R6-2
+Add Pin To Net: Unknown Pin: Pin R7-1
+Add Pin To Net: Unknown Pin: Pin R7-2
+Add Pin To Net: Unknown Pin: Pin R8-1
+Add Pin To Net: Unknown Pin: Pin R8-2
+Add Pin To Net: Unknown Pin: Pin R9-1
+Add Pin To Net: Unknown Pin: Pin R9-2
+Add Pin To Net: Unknown Pin: Pin R10-1
+Add Pin To Net: Unknown Pin: Pin R10-2
+Add Pin To Net: Unknown Pin: Pin R11-1
+Add Pin To Net: Unknown Pin: Pin R11-2
+Add Pin To Net: Unknown Pin: Pin R12-1
+Add Pin To Net: Unknown Pin: Pin R12-2
+Add Pin To Net: Unknown Pin: Pin R13-1
+Add Pin To Net: Unknown Pin: Pin R13-2
+Add Pin To Net: Unknown Pin: Pin R14-1
+Add Pin To Net: Unknown Pin: Pin R14-2
+Add Pin To Net: Unknown Pin: Pin R15-1
+Add Pin To Net: Unknown Pin: Pin R15-2
+Add Pin To Net: Unknown Pin: Pin R17-1
+Add Pin To Net: Unknown Pin: Pin R17-2
+Add Pin To Net: Unknown Pin: Pin S1-1
+Add Pin To Net: Unknown Pin: Pin S1-3
+Add Pin To Net: Unknown Pin: Pin S2-1
+Add Pin To Net: Unknown Pin: Pin S2-3
+Add Pin To Net: Unknown Pin: Pin S3-2
+Add Pin To Net: Unknown Pin: Pin S3-3
+Add Class Member: Failed to add class member : Component C1 10uF
+Add Class Member: Failed to add class member : Component C2 22pF
+Add Class Member: Failed to add class member : Component C3 22pF
+Add Class Member: Failed to add class member : Component External_Clk 16MHz
+Add Class Member: Failed to add class member : Component PDR1 10k
+Add Class Member: Failed to add class member : Component PDR2 10k
+Add Class Member: Failed to add class member : Component Q1 IRF530NPBF
+Add Class Member: Failed to add class member : Component R1 220
+Add Class Member: Failed to add class member : Component R2 220
+Add Class Member: Failed to add class member : Component R3 220
+Add Class Member: Failed to add class member : Component R4 220
+Add Class Member: Failed to add class member : Component R5 220
+Add Class Member: Failed to add class member : Component R6 220
+Add Class Member: Failed to add class member : Component R7 220
+Add Class Member: Failed to add class member : Component R8 220
+Add Class Member: Failed to add class member : Component R9 220
+Add Class Member: Failed to add class member : Component R10 220
+Add Class Member: Failed to add class member : Component R11 220
+Add Class Member: Failed to add class member : Component R12 220
+Add Class Member: Failed to add class member : Component R13 220
+Add Class Member: Failed to add class member : Component R14 220
+Add Class Member: Failed to add class member : Component R15 1k
+Add Class Member: Failed to add class member : Component R17 220
+Add Class Member: Failed to add class member : Component S1 Start_Button
+Add Class Member: Failed to add class member : Component S2 PPSolenoid_Button
+Add Class Member: Failed to add class member : Component S3 EG1218

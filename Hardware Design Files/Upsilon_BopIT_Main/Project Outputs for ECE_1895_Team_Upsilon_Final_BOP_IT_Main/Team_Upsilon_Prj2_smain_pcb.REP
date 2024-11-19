@@ -1,0 +1,356 @@
+*************************************************************
+FileName = Team_Upsilon_Prj2_smain_pcb.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 1
+      File : Team_Upsilon_Prj2_smain_pcb.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : Team_Upsilon_Prj2_smain_pcb.GM3
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Team_Upsilon_Prj2_smain_pcb.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : Team_Upsilon_Prj2_smain_pcb.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D27
+    D28
+    D31
+    D34
+    D35
+    D36
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : Team_Upsilon_Prj2_smain_pcb.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D27
+    D28
+    D31
+    D34
+    D35
+    D36
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Team_Upsilon_Prj2_smain_pcb.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D27
+    D28
+    D31
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Team_Upsilon_Prj2_smain_pcb.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : Team_Upsilon_Prj2_smain_pcb.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Component Outline
+      File : Team_Upsilon_Prj2_smain_pcb.GM11
+
+    Adding Layer      : Top Component Outline
+
+
+Used DCodes :
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Team_Upsilon_Prj2_smain_pcb.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Team_Upsilon_Prj2_smain_pcb.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Team_Upsilon_Prj2_smain_pcb.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D27
+    D28
+    D31
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : Team_Upsilon_Prj2_smain_pcb.GM17
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Team_Upsilon_Prj2_smain_pcb.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Team_Upsilon_Prj2_smain_pcb.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : Team_Upsilon_Prj2_smain_pcb.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D12
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : Team_Upsilon_Prj2_smain_pcb.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D12
+    D13
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : Team_Upsilon_Prj2_smain_pcb.GM
+
+
+Used DCodes :
+    D49
+*************************************************************
+

@@ -1,0 +1,29 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [ECE_1895_Team_Upsilon_Final_BOP_IT_Main.PrjPcb]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GTO]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GTP]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GTS]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GTL]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GBL]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GBS]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GBP]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GM1]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GM3]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GM5]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GM11]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GM13]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GM15]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GM17]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GKO]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GPT]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GPB]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.GM]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.EXTREP]
+   Generated File[Team_Upsilon_Prj2_smain_pcb.REP]
+
+
+Files Generated   : 20
+Documents Printed : 0
+
+Finished Output Generation At 7:05:10 PM On 10/30/2024

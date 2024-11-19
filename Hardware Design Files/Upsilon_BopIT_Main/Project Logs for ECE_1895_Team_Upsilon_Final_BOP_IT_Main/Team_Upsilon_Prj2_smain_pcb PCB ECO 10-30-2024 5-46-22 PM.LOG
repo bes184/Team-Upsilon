@@ -1,0 +1,24 @@
+Change Component Designator: OldDesignator=Decoder1 NewDesignator=DC1
+Change Component Designator: OldDesignator=Decoder2 NewDesignator=DC2
+Change Net Name : Old Net Name=NetDecoder1_1 New Net Name=NetDC1_1
+Change Net Name : Old Net Name=NetDecoder1_2 New Net Name=NetDC1_2
+Change Net Name : Old Net Name=NetDecoder1_6 New Net Name=NetDC1_6
+Change Net Name : Old Net Name=NetDecoder1_7 New Net Name=NetDC1_7
+Change Net Name : Old Net Name=NetDecoder1_9 New Net Name=NetDC1_9
+Change Net Name : Old Net Name=NetDecoder1_10 New Net Name=NetDC1_10
+Change Net Name : Old Net Name=NetDecoder1_11 New Net Name=NetDC1_11
+Change Net Name : Old Net Name=NetDecoder1_12 New Net Name=NetDC1_12
+Change Net Name : Old Net Name=NetDecoder1_13 New Net Name=NetDC1_13
+Change Net Name : Old Net Name=NetDecoder1_14 New Net Name=NetDC1_14
+Change Net Name : Old Net Name=NetDecoder1_15 New Net Name=NetDC1_15
+Change Net Name : Old Net Name=NetDecoder1_16 New Net Name=NetDC1_16
+Change Net Name : Old Net Name=NetDecoder2_1 New Net Name=NetDC2_1
+Change Net Name : Old Net Name=NetDecoder2_2 New Net Name=NetDC2_2
+Change Net Name : Old Net Name=NetDecoder2_6 New Net Name=NetDC2_6
+Change Net Name : Old Net Name=NetDecoder2_9 New Net Name=NetDC2_9
+Change Net Name : Old Net Name=NetDecoder2_10 New Net Name=NetDC2_10
+Change Net Name : Old Net Name=NetDecoder2_11 New Net Name=NetDC2_11
+Change Net Name : Old Net Name=NetDecoder2_12 New Net Name=NetDC2_12
+Change Net Name : Old Net Name=NetDecoder2_13 New Net Name=NetDC2_13
+Change Net Name : Old Net Name=NetDecoder2_14 New Net Name=NetDC2_14
+Change Net Name : Old Net Name=NetDecoder2_15 New Net Name=NetDC2_15

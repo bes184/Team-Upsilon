@@ -1,0 +1,28 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [ECE1895_Team_Upsilon_Final_Bop-It_Display.PrjPcb]
+   Generated File[Team_Upsilon_Display_pcb.GTO]
+   Generated File[Team_Upsilon_Display_pcb.GTP]
+   Generated File[Team_Upsilon_Display_pcb.GTS]
+   Generated File[Team_Upsilon_Display_pcb.GTL]
+   Generated File[Team_Upsilon_Display_pcb.GBL]
+   Generated File[Team_Upsilon_Display_pcb.GBS]
+   Generated File[Team_Upsilon_Display_pcb.GBP]
+   Generated File[Team_Upsilon_Display_pcb.GM3]
+   Generated File[Team_Upsilon_Display_pcb.GM5]
+   Generated File[Team_Upsilon_Display_pcb.GM11]
+   Generated File[Team_Upsilon_Display_pcb.GM13]
+   Generated File[Team_Upsilon_Display_pcb.GM15]
+   Generated File[Team_Upsilon_Display_pcb.GM17]
+   Generated File[Team_Upsilon_Display_pcb.GKO]
+   Generated File[Team_Upsilon_Display_pcb.GPT]
+   Generated File[Team_Upsilon_Display_pcb.GPB]
+   Generated File[Team_Upsilon_Display_pcb.GM]
+   Generated File[Team_Upsilon_Display_pcb.EXTREP]
+   Generated File[Team_Upsilon_Display_pcb.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 7:04:18 PM On 10/30/2024

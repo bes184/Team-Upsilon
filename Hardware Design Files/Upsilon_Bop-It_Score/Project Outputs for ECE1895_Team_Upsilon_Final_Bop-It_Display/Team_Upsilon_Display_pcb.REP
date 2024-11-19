@@ -1,0 +1,239 @@
+*************************************************************
+FileName = Team_Upsilon_Display_pcb.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Solder
+      File : Team_Upsilon_Display_pcb.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Team_Upsilon_Display_pcb.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : Team_Upsilon_Display_pcb.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Team_Upsilon_Display_pcb.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : Team_Upsilon_Display_pcb.GM17
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : Team_Upsilon_Display_pcb.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Component Outline
+      File : Team_Upsilon_Display_pcb.GM11
+
+    Adding Layer      : Top Component Outline
+
+
+Used DCodes :
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Team_Upsilon_Display_pcb.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Team_Upsilon_Display_pcb.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Team_Upsilon_Display_pcb.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : Team_Upsilon_Display_pcb.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : Team_Upsilon_Display_pcb.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : Team_Upsilon_Display_pcb.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D11
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : Team_Upsilon_Display_pcb.GM3
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Team_Upsilon_Display_pcb.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Team_Upsilon_Display_pcb.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : Team_Upsilon_Display_pcb.GM
+
+
+Used DCodes :
+    D24
+*************************************************************
+

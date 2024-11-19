@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Team_Upsilon_Prj2_smain_pcb.PcbDoc   10/30/2024  6:46:27 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Team_Upsilon_Prj2_smain_pcb.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      28mil (0.701mm)                                           Round             4         PTH        0.84inch (21.45mm)
+T2      30mil (0.749mm)                                           Round             36        PTH        13.69inch (347.73mm)
+T3      32mil (0.8mm)                                             Round             6         PTH        1.41inch (35.79mm)
+T4      35mil (0.899mm)                                           Round             60        PTH        8.51inch (216.05mm)
+T5      39mil (1.001mm)                                           Round             7         PTH        2.33inch (59.21mm)
+T6      40mil (1.021mm)                                           Round             6         PTH        1.25inch (31.82mm)
+T7      43mil (1.1mm)                                             Round             36        PTH        12.62inch (320.43mm)
+T8      49mil (1.25mm)                                            Round             3         PTH        0.20inch (5.08mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              158
+
+Total Processing Time (hh:mm:ss) : 00:00:00

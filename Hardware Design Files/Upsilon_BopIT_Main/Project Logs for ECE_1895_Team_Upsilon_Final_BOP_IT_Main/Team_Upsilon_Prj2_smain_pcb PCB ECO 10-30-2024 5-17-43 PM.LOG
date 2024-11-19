@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=External Clock NewDesignator=ExCLK
+Change Component Designator: OldDesignator=Microcontroller NewDesignator=MC
+Change Component Designator: OldDesignator=Voltage_Regulator NewDesignator=VR
+Change Net Name : Old Net Name=NetMicrocontroller_11 New Net Name=NetMC_11
+Change Net Name : Old Net Name=NetMicrocontroller_12 New Net Name=NetMC_12
+Change Net Name : Old Net Name=NetMicrocontroller_13 New Net Name=NetMC_13
+Change Net Name : Old Net Name=NetMicrocontroller_16 New Net Name=NetMC_16
+Change Net Name : Old Net Name=NetMicrocontroller_28 New Net Name=NetMC_28
