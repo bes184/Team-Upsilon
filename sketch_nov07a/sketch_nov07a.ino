@@ -202,7 +202,7 @@ boolean checkPattyFlip() { // 800 // 200
 bool isDone(int aCommand) {
   // read input pins
   bool checkSpongeBob = checkPattyFlip();
-  bool checkSandy = checkKarate();
+  bool checkSandy = checkKarateChopChop();
   bool checkPatrick = (digitalRead(pin4) == HIGH);
   elapsedTime = millis() - t0;
   // check to see if the command is done
@@ -244,7 +244,7 @@ bool isDone(int aCommand) {
   return true;
 }
 
-bool checkKarate() {
+bool checkKarateChopChop() {
   if (digitalRead(pin3) == HIGH) {
     for (int i = 0; i < 10; i++) {
       if (digitalRead(pin3) == LOW) {
@@ -274,7 +274,7 @@ void endGame(int aNum) {
   }
   else if(aNum == 2) {
     // TODO make Squidward say "You win!" - convert to pwm output for speaker
-    speakerEnding3(pin5);
+    speakerEnding2(pin5);
     delay(500);
     noTone(pin5);
   }
@@ -533,7 +533,7 @@ void speakerEnding1(uint8_t speakerPin) {
   noTone(speakerPin);
 }
 
-void speakerEnding3(uint8_t speakerPin) {
+void speakerEnding2(uint8_t speakerPin) {
   // Win
   tone(speakerPin, 369.9944, 167); // Fs4
   delay(167);
